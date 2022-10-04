@@ -11,6 +11,8 @@
 		23DC607B28EC563E000C7B55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC607A28EC563E000C7B55 /* ContentView.swift */; };
 		23DC607D28EC563F000C7B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DC607C28EC563F000C7B55 /* Assets.xcassets */; };
 		23DC608128EC563F000C7B55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DC608028EC563F000C7B55 /* Preview Assets.xcassets */; };
+		23DC608B28EC5670000C7B55 /* MorphingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC608A28EC5670000C7B55 /* MorphingView.swift */; };
+		23DC608E28EC5748000C7B55 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC608D28EC5748000C7B55 /* CustomShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		23DC607C28EC563F000C7B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23DC607E28EC563F000C7B55 /* MorphingShapes_Practice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MorphingShapes_Practice.entitlements; sourceTree = "<group>"; };
 		23DC608028EC563F000C7B55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23DC608A28EC5670000C7B55 /* MorphingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingView.swift; sourceTree = "<group>"; };
+		23DC608D28EC5748000C7B55 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		23DC607728EC563E000C7B55 /* MorphingShapes-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				23DC608C28EC5742000C7B55 /* Model */,
+				23DC608928EC5663000C7B55 /* View */,
 				23DC607828EC563E000C7B55 /* MorphingShapes_PracticeApp.swift */,
 				23DC607A28EC563E000C7B55 /* ContentView.swift */,
 				23DC607C28EC563F000C7B55 /* Assets.xcassets */,
@@ -67,6 +73,22 @@
 				23DC608028EC563F000C7B55 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23DC608928EC5663000C7B55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23DC608A28EC5670000C7B55 /* MorphingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23DC608C28EC5742000C7B55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23DC608D28EC5748000C7B55 /* CustomShape.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23DC608E28EC5748000C7B55 /* CustomShape.swift in Sources */,
 				23DC607B28EC563E000C7B55 /* ContentView.swift in Sources */,
+				23DC608B28EC5670000C7B55 /* MorphingView.swift in Sources */,
 				23DC607928EC563E000C7B55 /* MorphingShapes_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
