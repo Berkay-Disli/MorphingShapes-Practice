@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		238D2BF528EDDB2900CE51CA /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 238D2BF428EDDB2900CE51CA /* gif.gif */; };
 		23DC607928EC563E000C7B55 /* MorphingShapes_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC607828EC563E000C7B55 /* MorphingShapes_PracticeApp.swift */; };
 		23DC607B28EC563E000C7B55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC607A28EC563E000C7B55 /* ContentView.swift */; };
 		23DC607D28EC563F000C7B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DC607C28EC563F000C7B55 /* Assets.xcassets */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		238D2BF428EDDB2900CE51CA /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
+		238D2BF628EDDB3B00CE51CA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		23DC607528EC563E000C7B55 /* MorphingShapes-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MorphingShapes-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DC607828EC563E000C7B55 /* MorphingShapes_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingShapes_PracticeApp.swift; sourceTree = "<group>"; };
 		23DC607A28EC563E000C7B55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,9 +40,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		238D2BF328EDDB1700CE51CA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				238D2BF428EDDB2900CE51CA /* gif.gif */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		23DC606C28EC563E000C7B55 = {
 			isa = PBXGroup;
 			children = (
+				238D2BF628EDDB3B00CE51CA /* README.md */,
+				238D2BF328EDDB1700CE51CA /* images */,
 				23DC607728EC563E000C7B55 /* MorphingShapes-Practice */,
 				23DC607628EC563E000C7B55 /* Products */,
 			);
@@ -149,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238D2BF528EDDB2900CE51CA /* gif.gif in Resources */,
 				23DC608128EC563F000C7B55 /* Preview Assets.xcassets in Resources */,
 				23DC607D28EC563F000C7B55 /* Assets.xcassets in Resources */,
 			);
